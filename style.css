@@ -50,7 +50,7 @@
   position: absolute;
   top: 60px;
   text-align: center;
-  box-shadow: 0 0 5px #333 ;
+  box-shadow: 0 0 4px rgb(92, 91, 91) ;
   transition: all 0.7s ease;
   -webkit-transition: all 0.7s ease;
   -moz-transition: all 0.7s ease;
@@ -73,6 +73,7 @@
 .wrapper .header .small-nav .small-li{
   padding-top: 40px;
   font-size: 34px;
+  color:#735CFE;
 }
 
 .wrapper .header-left {
