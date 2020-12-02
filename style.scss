@@ -1,0 +1,218 @@
+
+
+
+
+
+$textColor:#735CFE;
+
+$fontfml:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$myfontSize:20px;
+$mywidth:100%;
+$myheight:100%;
+$display:flex;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+*{
+    margin: 0;padding: 0;
+}
+::-webkit-scrollbar{
+    height:0px;
+}
+.wrapper{
+    overflow: hidden;
+    width:$mywidth;
+    height:1000px;
+    border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+
+        & .header{
+
+    width:$mywidth;
+    height:60px;
+   position: relative;
+    box-shadow: 0 0 3px rgb(153, 153, 153) ;
+    display:$display;
+
+    & .small-icon{
+        width:100px;height:40px;
+       box-shadow: 0 0 2px #333 ;
+        display: none;
+        text-align: center;
+        font-size: 30px;
+        position: relative;
+        line-height: 40px;
+    }
+    & .small-nav{
+        display:none;
+        list-style-type: none;
+        width:$mywidth;
+        height:400px;
+        position: absolute;
+        top:50px;
+        
+    }
+    &-left{
+        width:40%;
+        height:100%;
+        padding-left: 70px;
+       
+        & .logo{
+           width:80px;height:$myheight;
+           object-fit: cover;
+          
+}
+    }
+    &-right{
+        width:60%;
+        & .right-ul{
+            display:$display;
+           list-style-type: none;
+           & .right-li{
+               padding:10px 16px;
+               line-height: 40px;
+            & a{
+                color:$textColor;
+                text-decoration: none;
+                font-size: $myfontSize;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                &:hover{
+                    color:rgb(217, 0, 255);
+                }
+            }
+           }
+           & .sign-up{
+               width:100px;
+               height:35px;
+              
+               text-align: center;
+               line-height: 35px;
+               border-radius:10px ;
+               -webkit-border-radius:10px ;
+               -moz-border-radius:10px ;
+               -ms-border-radius:10px ;
+               -o-border-radius:10px ;
+               position: relative;
+               left:60px;top: 10px;
+               cursor: pointer;
+               color:white;
+               background: $textColor;
+               font-size: 15px ;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-family: $fontfml;
+            box-shadow: 0 0 2px rgb(233, 230, 230);
+            &:hover{
+                box-shadow: 0 0 4px #333 ;
+            }
+}
+        }
+
+    }
+        }
+& .content{
+    width:$mywidth;
+    height:95%;
+& .first-div{
+    width:$mywidth;
+    height:800px;
+    display:$display;
+
+&-left{
+    width:50%;
+    height:$myheight;
+ & .download{
+     height:40px;
+     width:300px;
+   
+     position: relative;
+     top:250px;
+     left:200px;
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     -ms-border-radius: 10px;
+     -o-border-radius: 10px;
+     font-family: $fontfml;
+     font-weight: bold;
+     color:#333;
+     line-height: 40px ;
+     display: $display;
+     &-logo{
+         width:40px;height:40px;
+        
+         padding-left: 10px ;
+         object-fit: cover;
+     }
+}
+  
+    & .text{
+        width:77%;
+        height:40%;
+       box-shadow: 0 0 4px rgb(206, 204, 204) ;
+        text-align: center;
+        position: relative;
+        left:90px;
+        top:140px;
+        padding-top: 50px ;
+        font-family: 'Noto Sans', sans-serif;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+
+        
+        &-h3{
+            font-size: 19px;
+            
+            color:$textColor;
+
+        }
+        &-h1{
+           font-size: 45px;color: rgb(63, 60, 60);
+
+        }
+        &-p{
+            color:#333;
+        }
+        & .start{
+            width:140px;
+            height:35px;
+            border-radius: 15px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            -ms-border-radius: 15px;
+            -o-border-radius: 15px;
+            background-color: $textColor;
+            color: rgb(255, 253, 253);
+            line-height: 35px ;
+            position: relative;top:40px;
+            cursor: pointer;
+            left:25px;
+            &:hover{
+                box-shadow:0 0 4px #333 ;
+            }
+}
+    }
+}
+& .fisrt-div-right{
+    width:50%;
+    height:$myheight;
+    padding:20px;
+   
+    & .girl-img{
+        width:$mywidth;
+        height:80%;
+        object-fit: contain;
+    }
+}
+}
+}
+
+
+
+}
+
