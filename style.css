@@ -58,16 +58,22 @@
   -moz-transition: all 0.8s;
   -ms-transition: all 0.8s;
   -o-transition: all 0.8s;
-  -webkit-box-shadow: 0 0 3px #616161;
-          box-shadow: 0 0 3px #616161;
+  -webkit-box-shadow: 0 0 3px #929292;
+          box-shadow: 0 0 3px #929292;
   background-color: #fff;
   z-index: 6;
   overflow: hidden;
+  border-radius: 0 0 10px 10px;
+  -webkit-border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+  -ms-border-radius: 0 0 10px 10px;
+  -o-border-radius: 0 0 10px 10px;
 }
 
 .wrapper .header .small-nav .small-li {
   padding-top: 30px;
   font-size: 26px;
+  color: #735CFE;
 }
 
 @-webkit-keyframes rundown {
