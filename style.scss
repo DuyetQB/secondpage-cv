@@ -46,14 +46,42 @@ $display:flex;
         line-height: 40px;
     }
     & .small-nav{
-        display:none;
-        list-style-type: none;
-        width:$mywidth;
-        height:400px;
-        position: absolute;
-        top:50px;
-        
+       display:none;
+       list-style-type: none;
+       width:$mywidth;
+       height:300px;
+       position: absolute;
+       top:60px;
+     
+       text-align: center;
+       background-color: #fff;
+       transition: all 0.8s;
+       animation: rundown 0.8s ease;
+       -webkit-animation: rundown 0.8s ease;
+       -webkit-transition: all 0.8s;
+       -moz-transition: all 0.8s;
+       -ms-transition: all 0.8s;
+       -o-transition: all 0.8s;
+       box-shadow: 0 0 3px rgb(97, 97, 97);
+      
+       background-color: #fff;
+       z-index: 6;
+       overflow: hidden;
+       & .small-li{
+          padding-top: 30px ;
+          font-size: 26px;
+       }
+
     }
+    @keyframes rundown {
+        from{
+            height:0px;
+        }
+        to{
+            height:300px;
+        }
+    }
+
     &-left{
         width:40%;
         height:100%;
